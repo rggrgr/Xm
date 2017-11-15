@@ -1,0 +1,148 @@
+.links img {
+    width: 128px;
+    height: 128px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.row {
+    padding-top: 56px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.links {
+    height: 160px;
+    background: blue;
+    border-radius: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    color: yellow;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+body {
+    background: #eaea56;
+}
+
+.content {
+    height: 500px;
+    display: flex;
+}
+
+.catalog {
+    width: 220px;
+    height: 475px;
+    padding-top: 10px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.items {
+    padding-top: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.catalog h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.items a {
+    text-decoration: none;
+    color: #07345a;
+}
+
+.items a:hover {
+    transition: 0.2s;
+    font-size: 18px;
+    color: blue;
+}
+
+.item hr {
+    margin: 10px 10px;
+}
+
+.footer {
+    height: 200px;
+    border: 3px solid #3c3b3b;
+    width: 1238px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 20px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.footer h2 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.box {
+    width: 400px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.main {
+    width: 1045px;
+}
+
+.main h2 {
+    font-size: 28px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.goods {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.product {
+    width: 209px;
+    height: 320px;
+    border: 1px solid #8e3cef;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+    border: 0.5px solid black;
+}
+
+.product img:hover {
+    width: 182px;
+    height: 204px;
+    transition: 0.5s;
+}
+.product p
+{
+     color: #07345a;
+}
+.box a
+{
+    text-decoration: none;
+}
