@@ -1,10 +1,6 @@
-.links img {
-    width: 128px;
-    height: 128px;
-}
-
 .header {
     margin-bottom: 20px;
+    display: flex;
 }
 
 .header a {
@@ -13,43 +9,56 @@
     margin-right: 20px;
 }
 
-.row {
-    padding-top: 56px;
+input {
+    height: 30px;
+   margin-top: -5px;
+    border-radius: 8px;
+    color: #353535;
+    margin-left: 500px;  
+}
+
+.links {
+    height: 60px;
+    width: 1240px;
+    background: #197a91;
+    border-radius: 10px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
     box-sizing: border-box;
     padding-left: 50px;
     font-size: 20px;
 }
 
-.links {
-    height: 160px;
-    background: blue;
-    border-radius: 10px;
-    padding-top: 10px;
+.logo {
+    background: #ffed00;
+    height: 100px;
+    padding-top: 30px;
     box-sizing: border-box;
-    padding-left: 50px;
-    color: yellow;
-    margin-left: 50px;
-    margin-right: 50px;
+    text-align: center;
     margin-bottom: 40px;
-    display: flex;
-}
-
-body {
-    background: #eaea56;
 }
 
 .content {
-    height: 500px;
+    height: 680px;
     display: flex;
 }
 
 .catalog {
     width: 220px;
-    height: 475px;
+    height: 450px;
     padding-top: 10px;
     padding-left: 5px;
+    padding-right: 5px;
     box-sizing: border-box;
     margin-right: 20px;
+    border: 1px solid #5f19b2;
+    border-radius: 5px;
+    margin-left: 10px;
 }
 
 .items {
@@ -88,6 +97,7 @@ body {
     padding-top: 20px;
     box-sizing: border-box;
     padding-left: 10px;
+    margin-top: 20px;
 }
 
 .footer h2 {
@@ -95,7 +105,10 @@ body {
     margin-top: 0;
     margin-bottom: 30px;
 }
-
+body
+{
+    margin: 8px 0px;
+}
 .box {
     width: 400px;
     height: 150px;
@@ -105,7 +118,10 @@ body {
 .main {
     width: 1045px;
 }
-
+hr
+{
+   width: 190px; 
+}
 .main h2 {
     font-size: 28px;
     margin-bottom: 0px;
@@ -120,7 +136,7 @@ body {
 
 .product {
     width: 209px;
-    height: 320px;
+    height: 325px;
     border: 1px solid #8e3cef;
     text-align: center;
     padding-top: 10px;
@@ -128,9 +144,9 @@ body {
 }
 
 .product img {
-    width: 150px;
-    height: 150px;
-    border: 0.5px solid black;
+    width: 140px;
+    height: 140px;
+    border: 1px solid black;
 }
 
 .product img:hover {
@@ -138,11 +154,23 @@ body {
     height: 204px;
     transition: 0.5s;
 }
-.product p
-{
-     color: #07345a;
+
+.product p {
+    color: #07345a;
+    margin-top: 5px;
 }
-.box a
-{
+.product h2 {
+    color: #07345a;
+    font-size: 16px;
+    margin: 0;
+}
+
+.product a {
     text-decoration: none;
+}
+
+.box a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
 }
