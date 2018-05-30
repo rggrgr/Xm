@@ -3,8 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -17,57 +22,57 @@
                 Сотрудничество
             </a>
             <a href="#">
-            Вход/регистрация
+                Вход/регистрация
             </a>
-            <input>
+            <input class="inp" style="width: 100px; border: 2px solid #b4ac99; margin-top: -5px; padding: 8px; box-sizing: border-box; color: white; margin-left: 48%; width: 200px">
+            <button style="background: white; margin-left: 10px; margin-top: -2px; color: black; height: 40px">  <i class="material-icons">search</i></button>
         </div>
-
-
-
     </div>
     <div class="logo">
         <img src="logo.jpg">
     </div>
-
-
+    <div class="catalog">
+        <h2 style="text-align: center; margin-bottom: 5px">
+            Каталог товаров:
+        </h2>
+        <div class="items">
+            <a href="#"> Хозяйственные товары</a>
+            <hr>
+            <a href="#"> Бытовая химия</a>
+            <hr>
+            <a href="#"> Посуда</a>
+            <hr>
+            <a href="#"> Зоотовары</a>
+            <hr>
+            <a href="#"> Игрушки</a>
+            <hr>
+            <a href="#"> Электроинструмент</a>
+            <hr>
+            <a href="#"> Чулочно-носочные изделия</a>
+            <hr>
+            <a href="#"> Спецодежда/Средства индивидуальной защиты</a>
+            <hr>
+            <a href="#"> Спецобувь</a>
+            <hr>
+            <a href="#"> Новогодние товары</a>
+            <hr>
+        </div>
+    </div>
     <div class="middle">
+        <div class="carousel">
+            <a class="carousel-item" href="#one!"><img src="1.png"></a>
+            <a class="carousel-item" href="#two!"><img src="2.jpg"></a>
+            <a class="carousel-item" href="#three!"><img src="chemistry.jpeg"></a>
+            <a class="carousel-item" href="#four!"><img src="pan.jpeg"></a>
+            <a class="carousel-item" href="#five!"><img src="toy.jpg"></a>
+        </div>
         <div class="content">
-
-            <div class="catalog">
-                <h2>
-                    Каталог товаров:
-                </h2>
-                <div class="items">
-
-                    <a href="#"> Хозяйственные товары</a>
-                    <hr>
-                    <a href="#"> Бытовая химия</a>
-                    <hr>
-                    <a href="#"> Посуда</a>
-                    <hr>
-                    <a href="#"> Зоотовары</a>
-                    <hr>
-                    <a href="#"> Игрушки</a>
-                    <hr>
-                    <a href="#"> Электроинструмент</a>
-                    <hr>
-                    <a href="#"> Чулочно-носочные изделия</a>
-                    <hr>
-                    <a href="#"> Спецодежда/Средства индивидуальной защиты</a>
-                    <hr>
-                    <a href="#"> Спецобувь</a>
-                    <hr>
-                    <a href="#"> Новогодние товары</a>
-                    <hr>
-                </div>
-            </div>
             <div class="main">
-                <div>
-                    <h2>
+                <div style="text-align: center">
+                    <h2 style="margin-bottom: 10px">
                         Наиболее популярные товары:
                     </h2>
                 </div>
-
                 <div class="goods">
                     <div class="product">
                         <a href="#">
@@ -181,18 +186,10 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
     </div>
     <div class="footer">
         <div class="box">
-            <h2>
-                Наш адрес
-            </h2>
-            <h2>
-                Наш адрес
-            </h2>
             <h2>
                 Наш адрес
             </h2>
@@ -209,15 +206,16 @@
             </h2>
         </div>
         <div class="box">
-
-            <h2>
-                Мы в соцсетях:
-                <br> <a href="#">Facebook</a>
-                <br> <a href="#">Vk</a>
-                <br> <a href="#">Instagram</a>
-            </h2>
         </div>
     </div>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.carousel');
+            var instances = M.Carousel.init(elems, options);
+        });
+
+    </script>
 </body>
 
 </html>

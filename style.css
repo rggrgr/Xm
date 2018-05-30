@@ -11,25 +11,24 @@
 
 input {
     height: 30px;
-   margin-top: -5px;
+    margin-top: -5px;
     border-radius: 8px;
     color: #353535;
-    margin-left: 500px;  
+    margin-left: 500px;
 }
 
 .links {
-    height: 60px;
-    width: 1240px;
+    height: 80px;
+    width: 80%;
     background: #197a91;
     border-radius: 10px;
-    padding-top: 15px;
+    padding-top: 20px;
     box-sizing: border-box;
     padding-left: 50px;
     color: yellow;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    box-sizing: border-box;
     padding-left: 50px;
     font-size: 20px;
 }
@@ -49,16 +48,17 @@ input {
 }
 
 .catalog {
-    width: 220px;
-    height: 450px;
+    width: 250px;
+    height: 490px;
     padding-top: 10px;
     padding-left: 5px;
     padding-right: 5px;
     box-sizing: border-box;
     margin-right: 20px;
-    border: 1px solid #5f19b2;
+    border: 1px solid #d1b728;
     border-radius: 5px;
     margin-left: 10px;
+    position: absolute;
 }
 
 .items {
@@ -89,7 +89,7 @@ input {
 
 .footer {
     height: 200px;
-    border: 3px solid #3c3b3b;
+    border: 3px solid #d1b728;
     width: 1238px;
     margin-left: auto;
     margin-right: auto;
@@ -97,7 +97,16 @@ input {
     padding-top: 20px;
     box-sizing: border-box;
     padding-left: 10px;
-    margin-top: 20px;
+    margin-top: 50px;
+}
+
+.inp {
+    width: 100px;
+    border: 2px solid #b4ac99;
+    margin-top: -5px;
+    padding: 8px;
+    box-sizing: border-box;
+    color: white;
 }
 
 .footer h2 {
@@ -105,10 +114,11 @@ input {
     margin-top: 0;
     margin-bottom: 30px;
 }
-body
-{
-    margin: 8px 0px;
+
+body {
+    margin: 8px 5px;
 }
+
 .box {
     width: 400px;
     height: 150px;
@@ -117,11 +127,14 @@ body
 
 .main {
     width: 1045px;
+    margin-left: auto;
+    margin-right: auto;
 }
-hr
-{
-   width: 190px; 
+
+hr {
+    width: 190px;
 }
+
 .main h2 {
     font-size: 28px;
     margin-bottom: 0px;
@@ -137,7 +150,7 @@ hr
 .product {
     width: 209px;
     height: 325px;
-    border: 1px solid #8e3cef;
+    border: 1px solid #d1b728;
     text-align: center;
     padding-top: 10px;
     box-sizing: border-box;
@@ -150,8 +163,8 @@ hr
 }
 
 .product img:hover {
-    width: 182px;
-    height: 204px;
+    width: 160px;
+    height: 180px;
     transition: 0.5s;
 }
 
@@ -159,6 +172,7 @@ hr
     color: #07345a;
     margin-top: 5px;
 }
+
 .product h2 {
     color: #07345a;
     font-size: 16px;
