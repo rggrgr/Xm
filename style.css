@@ -9,14 +9,6 @@
     margin-right: 20px;
 }
 
-input {
-    height: 30px;
-    margin-top: -5px;
-    border-radius: 8px;
-    color: #353535;
-    margin-left: 500px;
-}
-
 .links {
     height: 80px;
     width: 80%;
@@ -76,7 +68,10 @@ input {
     text-decoration: none;
     color: #07345a;
 }
-
+ input{
+    height: 65%;
+    margin-left: 10%;
+ }
 .items a:hover {
     transition: 0.2s;
     font-size: 18px;
@@ -97,16 +92,7 @@ input {
     padding-top: 20px;
     box-sizing: border-box;
     padding-left: 10px;
-    margin-top: 50px;
-}
-
-.inp {
-    width: 100px;
-    border: 2px solid #b4ac99;
-    margin-top: -5px;
-    padding: 8px;
-    box-sizing: border-box;
-    color: white;
+    margin-top: 10%;
 }
 
 .footer h2 {
@@ -127,6 +113,7 @@ body {
 
 .main {
     width: 1045px;
+    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
 }

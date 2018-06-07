@@ -24,7 +24,7 @@
             <a href="#">
                 Вход/регистрация
             </a>
-            <input class="inp" style="width: 100px; border: 2px solid #b4ac99; margin-top: -5px; padding: 8px; box-sizing: border-box; color: white; margin-left: 48%; width: 200px">
+            <input type="" name="" class="inp">
             <button style="background: white; margin-left: 10px; margin-top: -2px; color: black; height: 40px">  <i class="material-icons">search</i></button>
         </div>
     </div>
@@ -60,11 +60,10 @@
     </div>
     <div class="middle">
         <div class="carousel">
-            <a class="carousel-item" href="#one!"><img src="1.png"></a>
+            <a class="carousel-item" href="#one!"><img src="toy.jpg"></a>
             <a class="carousel-item" href="#two!"><img src="2.jpg"></a>
             <a class="carousel-item" href="#three!"><img src="chemistry.jpeg"></a>
             <a class="carousel-item" href="#four!"><img src="pan.jpeg"></a>
-            <a class="carousel-item" href="#five!"><img src="toy.jpg"></a>
         </div>
         <div class="content">
             <div class="main">
@@ -208,13 +207,13 @@
         <div class="box">
         </div>
     </div>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var elems = document.querySelectorAll('.carousel');
-            var instances = M.Carousel.init(elems, options);
-        });
-
+        $(document).ready(function(){
+        $('.carousel').carousel();
+      });
     </script>
 </body>
 
